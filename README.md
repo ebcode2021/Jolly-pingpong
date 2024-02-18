@@ -4,7 +4,7 @@
 
 > 핑퐁 게임과 채팅이 가능한 42 Seoul 유저 기반의 웹사이트
 
-✈️ [기존 repository]("https://github.com/42-Jolly-pingpong/back-end")
+✈️ [기존 repository](https://github.com/42-Jolly-pingpong/back-end)
 
 사진 촵촵
 
