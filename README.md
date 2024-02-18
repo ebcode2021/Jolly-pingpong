@@ -8,15 +8,21 @@
 
 사진 촵촵
 
+<br />
+
 ## 2. 개발 기간
 
 2023.08 - 2023.12
+
+<br />
 
 ## 3. 개발 환경
 
 **backend** : `nestJS`, `postgreSQL` \
 **frontend** : `typeScript`, `React`, `Recoil` \
 **tool** : `git`, `github`, `flowbite`, `swagger`
+
+<br />
 
 ## 4. 멤버 구성
 
@@ -47,4 +53,6 @@ $ npm run start
 
 **서버 시작 후 사이트 접속** -> `http://localhost:5173`
 
-## 6. 주요 기능
+## 6. 설계
+
+## 7. 기능 구현
