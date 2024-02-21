@@ -2,15 +2,16 @@
 
 ## 1. 프로젝트 소개
 
-> 핑퐁 게임과 채팅이 가능한 42 Seoul 유저 기반의 웹사이트
+> 핑퐁 게임과 42Seoul 유저들과 소통이 가능한 웹사이트
 
+SPA고.
 Restful한 설계를 기반으로 API를 만들고자 했고 \
 React의 Recoil을 통해 상태관리를 하려고 했고 \
 이를 통해서 뭐를 이루려고했다.
 
 여기다 메인 사진 2-3개 정도 잘나온걸로 촵촵
 
-✈️ [기존 repository](https://github.com/42-Jolly-pingpong/back-end)
+✈️ [기존 repository 구경하기](https://github.com/42-Jolly-pingpong/back-end)
 
 <br />
 
@@ -22,9 +23,9 @@ React의 Recoil을 통해 상태관리를 하려고 했고 \
 
 ## 3. 개발 환경
 
-**backend** : `nestJS`, `postgreSQL` \
-**frontend** : `typeScript`, `React`, `Recoil` \
-**tool** : `git`, `github`, `flowbite`, `swagger`
+**backend** : nestJS, postgreSQL \
+**frontend** : typeScript, React, Recoil \
+**tool** : git, github, flowbite, swagger
 
 <br />
 
@@ -55,7 +56,8 @@ $ npm update
 $ npm run start
 ```
 
-**서버 시작 후 사이트 접속** -> `http://localhost:5173`
+**서버 시작 후 사이트 접속** \
+http://localhost:5173
 
 ## 6. 설계 및 디자인
 
