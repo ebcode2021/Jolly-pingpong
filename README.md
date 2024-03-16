@@ -205,9 +205,11 @@ $ npm run start
 
 **2-3. 프로필** 🙋🏻‍♀️
 
+```
 -   유저의 최근 경기 전적
 -   친구 목록(본인 프로필 페이지 일 경우, 친구 요청이 있을 경우 상단에 노출)
 -   (프로필 본인의) 차단 목록, 차단 해제
+```
 
 **[유저의 게임 전적]**
 <img width="1621" alt="게임 전적" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/4cb0748d-a3af-4291-acb7-ad6f408950ba">
@@ -251,8 +253,10 @@ $ npm run start
 
 ### 4. 채팅
 
+```
 -   채널을 통해 다른 유저와 채팅 가능
 -   다른 유저와 DM(Direct Message)
+```
 
 **[DM 화면]**
 
