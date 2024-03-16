@@ -11,6 +11,8 @@
 <br />
 <img width="1091" alt="game play" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/3a6a49f8-a85a-4b32-9ddb-098aa9d1a518">
 
+<br />
+
 ✈️ [기존 repository PR 구경하기 ](https://github.com/42-Jolly-pingpong/back-end)
 
 ## 2. 개발 기간
@@ -96,6 +98,8 @@ $ npm run start
 **🏁 서버 시작 후 사이트 접속** \
 -> http://localhost:5173
 
+<br />
+
 ## 6. 설계 및 디자인
 
 **[ERD 설계]**
@@ -103,6 +107,8 @@ $ npm run start
 > ERDCloud를 활용하여 설계하였으며, 사이트에 공유된 타회사의 ERD를 참고하여 설계하였습니다.
 
 <img width="1400" alt="erd" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/490c08e7-ba97-472f-bc82-ab759ee56fdb">
+
+<br />
 
 **[API 명세]**
 
