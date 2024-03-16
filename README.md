@@ -192,27 +192,19 @@ $ npm run start
     <img width="1583" alt="차단 유저" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/f200058d-14dd-41bb-a1ad-946776205f5a">
 </p>
 
-```
-// profile-status.enum
+**[유저와의 관계 enum]**
 
-export enum ProfileStatus {
-MINE = 'MINE',
-FRIEND = 'FRIEND',
-REQUESTEDBYME = 'REQUESTEDBYME',
-REQUESTEDBYOTHER = 'REQUESTEDBYOTHER',
-BLOCKEDBYME = 'BLOCKEDBYME',
-BLOCKEDBYOTHER = 'BLOCKEDBYOTHER',
-UNKNOWN = 'UNKNOWN', // 탈퇴한 유저. 없는 유저. 내가 차단당한 유저일때
-UNDEFINED = 'UNDEFINED',
-}
+<p align="center">
+    <img width="577" alt="관계" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/769210d0-ca3a-4d9b-9db7-c2488ed39ac9">
 
+</p>
 ```
 
 **2-3. 유저의 프로필** 🙋🏻‍♀️
 
 -   유저의 최근 경기 전적
--   친구 목록(본인 프로필 페이지 일 시, 친구 요청이 있을 경우 상단에 노출)
--   차단 목록, 차단 해제(본인 프로필에 한 함)
+-   친구 목록(본인 프로필 페이지 일 경우, 친구 요청이 있을 경우 상단에 노출)
+-   (프로필 본인의) 차단 목록, 차단 해제
 
 **[유저의 게임 전적]**
 <img width="1621" alt="게임 전적" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/4cb0748d-a3af-4291-acb7-ad6f408950ba">
@@ -246,6 +238,7 @@ UNDEFINED = 'UNDEFINED',
 <img width="1091" alt="game play" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/3a6a49f8-a85a-4b32-9ddb-098aa9d1a518">
 
 <br />
+<br />
 
 **[승패에 따른 결과 화면]**
 
@@ -254,6 +247,9 @@ UNDEFINED = 'UNDEFINED',
 <br />
 
 ### 4. 채팅
+
+-   채널을 통해 다른 유저와 채팅 가능
+-   다른 유저와 DM(Direct Message)
 
 **[DM 화면]**
 
