@@ -17,6 +17,7 @@
 <img width="1091" alt="game play" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/3a6a49f8-a85a-4b32-9ddb-098aa9d1a518">
 
 <br />
+<br />
 
 ✈️ [기존 repository PR 구경하기 ](https://github.com/42-Jolly-pingpong/back-end)
 
@@ -29,8 +30,6 @@
 **backend** : NestJS, PostgreSQL \
 **frontend** : TypeScript, React, Recoil \
 **tool** : Git, Github, Flowbite, Swagger, Figma, ERDCloud
-
-<br />
 
 ## 4. 멤버 구성
 
@@ -114,6 +113,7 @@ $ npm run start
 <img width="1400" alt="erd" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/490c08e7-ba97-472f-bc82-ab759ee56fdb">
 
 <br />
+<br />
 
 **[API 명세]**
 
@@ -137,15 +137,11 @@ $ npm run start
 **[비로그인 메인 페이지]**
 <img width="1300" alt="비로그인" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/02ee9a9b-8d4f-4e19-bb9b-e41acf73d236">
 
-<br />
-
 **[회원가입]**
 
 <p align="center">
     <img width="454" alt="signUp" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/e4fe563e-9668-47cd-86d6-be37943cf753">
 </p>
-
-<br />
 
 **[Oauth2 관련 코드]**
 
