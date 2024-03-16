@@ -11,25 +11,60 @@ React의 Recoil을 통해 상태관리를 하려고 했고 \
 
 여기다 메인 사진 2-3개 정도 잘나온걸로 촵촵
 
-✈️ [기존 repository 구경하기](https://github.com/42-Jolly-pingpong/back-end)
-
-<br />
+✈️ [기존 repository PR 구경하기 ](https://github.com/42-Jolly-pingpong/back-end)
 
 ## 2. 개발 기간
 
 2023.08 - 2023.12
 
-<br />
-
 ## 3. 개발 환경
 
-**backend** : nestJS, postgreSQL \
-**frontend** : typeScript, React, Recoil \
-**tool** : git, github, flowbite, swagger
+**backend** : NestJS, PostgreSQL \
+**frontend** : TypeScript, React, Recoil \
+**tool** : Git, Github, Flowbite, Swagger, Figma, ERDCloud
 
 <br />
 
 ## 4. 멤버 구성
+
+<div align="center">
+  <table style="font-weight : bold">
+      <tr>
+          <td align="center">
+              <a href="https://github.com/get6">                 
+                  <img alt="p1" src="https://avatars.githubusercontent.com/get6" width="80" />
+              </a>
+          </td>
+          <td align="center">
+              <a href="https://github.com/ebcode2021">                 
+                  <img alt="p2" src="https://avatars.githubusercontent.com/ebcode2021" width="80" />            
+              </a>
+          </td>
+          <td align="center">
+              <a href="https://github.com/">                 
+                  <img alt="p3" src="https://avatars.githubusercontent.com/yujelee" width="80" />            
+              </a>
+          </td>
+		   <td align="center">
+              <a href="https://github.com/minsukan">                 
+                  <img alt="p4" src="https://avatars.githubusercontent.com/minsubro" width="80" />            
+              </a>
+          </td>
+      </tr>
+      <tr>
+          <td align="center">sunhwang</td>
+          <td align="center">eunson</td>
+          <td align="center">yujelee</td>
+		  <td align="center">minsukan</td>
+      </tr>
+	   <tr>
+          <td align="center">PM 및 디자인</td>
+          <td align="center">유저, 인증</td>
+          <td align="center">채팅</td>
+		  <td align="center">게임</td>
+      </tr>
+  </table>
+</div>
 
 ## 5. 사용법
 
@@ -56,23 +91,30 @@ $ npm update
 $ npm run start
 ```
 
-**서버 시작 후 사이트 접속** \
-http://localhost:5173
+<br />
+
+**🏁 서버 시작 후 사이트 접속** \
+🏁 http://localhost:5173
 
 ## 6. 설계 및 디자인
 
-**[ERD 설계]** \
-ERDCloud를 사용하였으며, 사이트에 공유된 타회사(배민,당근마켓)의 ERD를 참고하여 설계하였다.
+**[ERD 설계]**
+
+> ERDCloud를 활용하여 설계하였으며, 사이트에 공유된 타회사의 ERD를 참고하여 설계하였습니다.
+
+<img width="1400" alt="erd" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/490c08e7-ba97-472f-bc82-ab759ee56fdb">
 
 erd 사진 촵촵
 
-**[API 명세]** \
-Restful API 구현을 위해 기능 명세가 끝난 후 구현을 시작했다. \
-api 캡쳐는 여기다 촵촵
+**[API 명세]**
+
+> API 명세는 서버 시작 후 `localhost:5173/api` 에 접속해 swagger를 통해서도 볼 수 있습니다.
+
+<img width="590" alt="api" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/61268bef-c749-4225-8320-d92b57874771">
 
 ## 7. 기능 구현
 
-구현 기능은 크게 4가지로 나눌 수 있으며, 구현 기능 옆에는 아이콘 🙋🏻‍♀️ 를 붙였다.
+구현 기능은 크게 4가지로 나눌 수 있으며, 구현 기능 옆에는 아이콘 🙋🏻‍♀️ 를 붙였습니다.
 
 ### 1. 로그인 / 회원가입 🙋🏻‍♀️
 
