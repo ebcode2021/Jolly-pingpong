@@ -2,14 +2,14 @@
 
 ## 1. 프로젝트 소개
 
-> 핑퐁 게임과 42Seoul 유저들과 소통이 가능한 웹사이트
+> 핑퐁 게임과 채팅이 가능한 42Seoul 유저 기반의 웹사이트
 
-SPA고.
-Restful한 설계를 기반으로 API를 만들고자 했고 \
-React의 Recoil을 통해 상태관리를 하려고 했고 \
-이를 통해서 뭐를 이루려고했다.
+"Jolly-pinpong" 프로젝트는 프론트엔드와 백엔드를 나누지 않고 유저, 채팅,게임을 각각 기능별로 나눠 구현하였습니다. 프론트엔드는 React와 Recoil을 활용하여 SPA 기반으로 구축되었으며, 백엔드는 NestJS 프레임워크를 이용하여 개발하였습니다. 이 웹사이트는 실시간 채팅과 pong 게임, 친구 관련 기능, 프로필 관리 등 다양한 기능을 제공합니다.
 
-여기다 메인 사진 2-3개 정도 잘나온걸로 촵촵
+<img width="1613" alt="main" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/b779f76b-c669-489f-aef8-de0ed2e06167">
+
+<br />
+<img width="1091" alt="game play" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/3a6a49f8-a85a-4b32-9ddb-098aa9d1a518">
 
 ✈️ [기존 repository PR 구경하기 ](https://github.com/42-Jolly-pingpong/back-end)
 
@@ -94,7 +94,7 @@ $ npm run start
 <br />
 
 **🏁 서버 시작 후 사이트 접속** \
-🏁 http://localhost:5173
+-> http://localhost:5173
 
 ## 6. 설계 및 디자인
 
@@ -104,15 +104,13 @@ $ npm run start
 
 <img width="1400" alt="erd" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/490c08e7-ba97-472f-bc82-ab759ee56fdb">
 
-erd 사진 촵촵
-
 **[API 명세]**
 
 > API 명세는 서버 시작 후 `localhost:5173/api` 에 접속해 swagger를 통해서도 볼 수 있습니다.
 
 <img width="590" alt="api" src="https://github.com/ebcode2021/Jolly-pingpong/assets/84271971/61268bef-c749-4225-8320-d92b57874771">
 
-## 7. 기능 구현
+## 7. 세부 기능 구현
 
 구현 기능은 크게 4가지로 나눌 수 있으며, 구현 기능 옆에는 아이콘 🙋🏻‍♀️ 를 붙였습니다.
 
